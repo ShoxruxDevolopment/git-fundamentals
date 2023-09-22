@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+.wrapper{
+width: 1440px;
+height: 500vh;
+border: 1px solid red;
+}
+.header{
+  width: 100%;
+  height: 91px;
+  border: 1px solid green;
+}
+.hr{
+  background-color: #FF7500;
+  height: 5px;
+}
+.icon_text{
+  display: flex;
+ align-items: center;
+ margin: 20px;
+
+
+}
+.header_icon{
+width: 38px;
+height: 59.18413162231445px;
+
+  border: 2px solid yellow;
+}
