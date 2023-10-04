@@ -5,28 +5,144 @@
 }
 .wrapper{
 width: 1440px;
-height: 500vh;
 border: 1px solid red;
 }
-.header{
+/* header */
+header{
   width: 100%;
-  height: 91px;
+  /* height: 91px; */
   border: 1px solid green;
+  /* display: flex; */
+  align-items: center;
 }
-.hr{
+
+.items{
+  color:#000000;
+  text-decoration-color: #FF7500;
+  list-style: none;
+}
+.underline{
+  text-decoration:none ;
+
+}
+.section-one{
+  /* display: flex; */
+  width: 1440px;
+
+  background-color: #252420;
+}
+.section-left-main{
+  width: 387px;
+
+}
+.section-header{
+  color: white;
+  width: 339px;
+  height: 96px;
+  text-align: center;
+}
+.section-p{
+  color: #FFFFFF;
+  width: 387px;
+  height: 96px;
+  text-align: center;
+}
+.bottom{
+  width: 152px;
+  height: 39px;
   background-color: #FF7500;
-  height: 5px;
-}
-.icon_text{
-  display: flex;
- align-items: center;
- margin: 20px;
+ text-align: center;
 
 
 }
-.header_icon{
-width: 38px;
-height: 59.18413162231445px;
+.bottom-text{
+  color: #FFFFFF;
+  text-decoration: none;
 
-  border: 2px solid yellow;
+}
+
+.section-hr{
+  background-color: #FF7500;
+  width: 80px;
+  height: 3px;
+}
+
+/* section two */
+.section-two{
+width: 1440px;
+
+}
+.section-header-two{
+  width: 435px;
+
+
+  font-size: 72px;
+  line-height: 86.4px;
+}
+.icons-block{
+  width: 1100px;
+  /* height: 245px; */
+}
+.li-block{
+  width: 340px;
+  height: 245px;
+}
+.icons{
+width: 100px;
+height: 100px;
+background-color: rgba(255, 117, 0, 0.2);
+}
+h3{
+  font-size: 24px;
+}
+.section-two-p{
+  width: 314px;
+  /* height: 72px; */
+  font-size: 16px;
+}
+
+/* section-three */
+.section-bottom{
+  width: 1100px;
+background-color: #252420;
+
+}
+.section-bottom-h{
+  width: 373px;
+  /* height: 96px; */
+font-size: 40px;
+color: #FFFFFF;
+}
+.section-bottom-p{
+  width: 440px;
+  height: 108px;
+color: #FFFFFF;
+
+}
+.section-bottom-p>p{
+  font-size: 16px;
+
+}
+
+
+/* footer */
+.footer{
+  width: 1440px;
+  /* height: 507px; */
+}
+.footer-left{
+  width: 224px;
+  /* height: 159px; */
+}
+.footer-two{
+width: 224px;
+/* height: 229px; */
+}
+.footer-three{
+width: 224px;
+/* height: 89px; */
+}
+.footer-four{
+  width: 224px;
+  /* height: 89px; */
 }
