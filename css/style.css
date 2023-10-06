@@ -1,8 +1,3 @@
-*{
-  margin: 0;
-  padding:0;
-  box-sizing: border-box;
-}
 .wrapper{
 width: 1440px;
 border: 1px solid red;
@@ -12,14 +7,23 @@ header{
   width: 100%;
   /* height: 91px; */
   border: 1px solid green;
-  /* display: flex; */
+  display: flex;
   align-items: center;
+  align-items: center;
+}
+.header-right-menu{
+  display: flex;
+  align-items: center;
+}
+.site-nav-list{
+  display: flex;
+  align-items: center;
+  list-style: none;
 }
 
 .items{
   color:#000000;
   text-decoration-color: #FF7500;
-  list-style: none;
  font-family: 'Roboto', sans-serif;
 text-transform: uppercase;
 font-size: 13px;
@@ -29,7 +33,8 @@ letter-spacing: 1px;
 
 }
 .underline{
-list-style: none;
+
+color: #000000;
 font-family: 'Roboto', sans-serif;
 font-size: 13px;
 line-height: 15px;
@@ -72,7 +77,7 @@ text-decoration:none ;
 }
 .bottom{
   width: 152px;
-  height: 39px;
+  /* height: 39px; */
   font-size: 13px;
   line-height: 15px;
   letter-spacing: 0.5px;
@@ -118,6 +123,9 @@ width: 1440px;
 }
 .icons-block{
   width: 1100px;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
   /* height: 245px; */
 }
 .li-block{
@@ -144,12 +152,18 @@ h3{
 
 /* section-three */
 .section-bottom{
-  width: 1100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 1100px;
 background-color: #252420;
 
 }
+.section-bottom-two{
+
+}
 .section-bottom-h{
-  width: 373px;
+  /* width: 373px; */
   /* height: 96px; */
 font-size: 40px;
 line-height: 48px;
@@ -157,7 +171,7 @@ font-family:  "Roboto Condensed", sans-serif;
 color: #FFFFFF;
 }
 .section-bottom-p{
-  width: 440px;
+  /* width: 440px; */
   height: 108px;
 color: #FFFFFF;
 
@@ -173,22 +187,38 @@ letter-spacing: 0.5px;
 
 /* footer */
 .footer{
-  width: 1440px;
+
   /* height: 507px; */
 }
+.footer-logo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.socials{
+  display: flex;
+  align-items: center;
+  list-style:none;
+}
+.footer-list{
+  list-style: none;
+}
+.footer-wrap{
+  display: flex;
+}
 .footer-left{
-  width: 224px;
+  /* width: 224px; */
   /* height: 159px; */
 }
 .footer-two{
-width: 224px;
+/* width: 224px; */
 /* height: 229px; */
 }
 .footer-three{
-width: 224px;
+/* width: 224px; */
 /* height: 89px; */
 }
 .footer-four{
-  width: 224px;
+  /* width: 224px; */
   /* height: 89px; */
 }
