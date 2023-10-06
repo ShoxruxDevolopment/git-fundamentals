@@ -44,7 +44,8 @@ text-decoration:none ;
 
 }
 .section-one{
-  /* display: flex; */
+  display: flex;
+  align-items: center;
   width: 1440px;
 
   background-color: #252420;
