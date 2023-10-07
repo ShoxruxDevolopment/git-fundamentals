@@ -11,6 +11,15 @@ header{
   align-items: center;
   align-items: center;
 }
+.logo-link{
+  transition: opacity 0.4s ease;
+}
+.logo-link:hover{
+  opacity: 0.8;
+}
+.logo-link:active{
+  opacity: 0.6;
+}
 .header-right-menu{
   display: flex;
   align-items: center;
@@ -19,7 +28,11 @@ header{
   display: flex;
   align-items: center;
   list-style: none;
+
 }
+
+
+
 
 .items{
   color:#000000;
@@ -29,8 +42,16 @@ text-transform: uppercase;
 font-size: 13px;
 line-height: 15px;
 letter-spacing: 1px;
+transition: color 0.4s ease,
+ opacity 0.6s ease;
 
 
+}
+.items:hover{
+  color: #FF7500;
+}
+.items:active{
+  opacity: 0.6;
 }
 .underline{
 
@@ -40,8 +61,14 @@ font-size: 13px;
 line-height: 15px;
 letter-spacing: 1px;
 text-decoration:none ;
+transition: color 0.4s ease;
+}
+.underline:hover{
+  color: #FF7500;
 
-
+}
+.underline:after{
+  opacity: 0.6;
 }
 .section-one{
   display: flex;
@@ -85,12 +112,22 @@ text-decoration:none ;
   font-family: "Roboto", sans-serif;
   background-color: #FF7500;
  text-align: center;
+ transition: opacity 0.4s ease;
 
 
+}
+.bottom:hover{
+  opacity: 0.8;
+}
+.bottom:active{
+  opacity: 0.6;
 }
 .bottom-text{
   color: #FFFFFF;
   text-decoration: none;
+
+}
+.bottom-text:active{
 
 }
 
@@ -201,6 +238,16 @@ letter-spacing: 0.5px;
   align-items: center;
   list-style:none;
 }
+.socials a{
+  color: #252420;
+}
+.socials a:hover{
+ color: #FF7500;
+}
+.socials a:active{
+  opacity: 0.6;
+ }
+
 .footer-list{
   list-style: none;
 }
