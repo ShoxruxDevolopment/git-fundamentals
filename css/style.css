@@ -1,6 +1,6 @@
 .wrapper{
 width: 1440px;
-border: 1px solid red;
+border: 5px solid red;
 }
 /* header */
 header{
@@ -8,8 +8,11 @@ header{
   /* height: 91px; */
   border: 1px solid green;
   display: flex;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  justify-content: space-between;
   align-items: center;
-  align-items: center;
+
 }
 .logo-link{
   transition: opacity 0.4s ease;
@@ -28,6 +31,7 @@ header{
   display: flex;
   align-items: center;
   list-style: none;
+  padding: 0;
 
 }
 
@@ -105,16 +109,24 @@ transition: color 0.4s ease;
 }
 .bottom{
   width: 152px;
+  display: inline-block;
   /* height: 39px; */
   font-size: 13px;
   line-height: 15px;
   letter-spacing: 0.5px;
+  padding: 12px 24px 12px 24px;
   font-family: "Roboto", sans-serif;
   background-color: #FF7500;
+  border-radius: 4px;
  text-align: center;
  transition: opacity 0.4s ease;
 
 
+}
+.python-img{
+  width: 510px;
+  height: 510px;
+  border-radius: 8px;
 }
 .bottom:hover{
   opacity: 0.8;
@@ -132,14 +144,18 @@ transition: color 0.4s ease;
 }
 
 .section-hr{
-  background-color: #FF7500;
+
   width: 80px;
   height: 3px;
+  background-color: #FF7500;
+  border: none;
 }
 
 /* section two */
 .section-two{
 width: 1440px;
+padding-top: 210px;
+padding-bottom: 210px;
 
 }
 
@@ -164,6 +180,7 @@ width: 1440px;
   display: flex;
   list-style: none;
   justify-content: space-between;
+  padding: 0;
   /* height: 245px; */
 }
 .li-block{
@@ -173,7 +190,16 @@ width: 1440px;
 .icons{
 width: 100px;
 height: 100px;
+
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
 background-color: rgba(255, 117, 0, 0.2);
+}
+.icons-icon{
+  width: 56px;
+  height: 56px;
 }
 h3{
   font-size: 24px;
@@ -194,8 +220,16 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 width: 1100px;
+border-radius: 12px;
+/* padding-top: 120px;
+padding-bottom: 160px; */
 background-color: #252420;
 
+}
+.img-book{
+  width: 440px;
+  height: 440px;
+  border-radius: 12px;
 }
 .section-bottom-two{
 
@@ -224,8 +258,9 @@ letter-spacing: 0.5px;
 
 
 /* footer */
-.footer{
-
+footer{
+padding-top: 56px;
+padding-bottom: 56px;
   /* height: 507px; */
 }
 .footer-logo{
@@ -237,6 +272,7 @@ letter-spacing: 0.5px;
   display: flex;
   align-items: center;
   list-style:none;
+  padding: 0;
 }
 .socials a{
   color: #252420;
@@ -250,23 +286,30 @@ letter-spacing: 0.5px;
 
 .footer-list{
   list-style: none;
+  padding: 0;
+
 }
 .footer-wrap{
   display: flex;
+  justify-content: space-evenly;
 }
 .footer-left{
   /* width: 224px; */
   /* height: 159px; */
+
 }
 .footer-two{
 /* width: 224px; */
+
 /* height: 229px; */
 }
 .footer-three{
+
 /* width: 224px; */
 /* height: 89px; */
 }
 .footer-four{
+
   /* width: 224px; */
   /* height: 89px; */
 }
