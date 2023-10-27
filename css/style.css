@@ -300,6 +300,9 @@ padding-bottom: 56px;
   align-items: center;
   justify-content: space-between;
 }
+.footer-logo img{
+  display: block;
+}
 .socials{
   display: flex;
   align-items: center;
