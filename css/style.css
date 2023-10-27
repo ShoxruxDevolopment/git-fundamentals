@@ -307,6 +307,9 @@ padding-bottom: 56px;
   margin: 0;
   padding: 0;
 }
+.socials svg{
+  display: block;
+}
 .socials li{
   margin-right: 16px;
 }
@@ -314,6 +317,7 @@ padding-bottom: 56px;
   margin-right: 0;
 }
 .socials a{
+  display: block;
   color: #252420;
 }
 .socials a:hover{
